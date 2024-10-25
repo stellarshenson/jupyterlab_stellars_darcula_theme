@@ -7,4 +7,6 @@ clean:
 	npm run clean:labextension
 	rm -rf dist lib 
 
+uninstall:
+	pip uninstall dist/*.whl
 
