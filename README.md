@@ -1,6 +1,6 @@
 # Stellars Jupyterlab Darcula Theme
 
-[![Github Actions Status](/workflows/Build/badge.svg)](/actions/workflows/build.yml)
+<!-- [![Github Actions Status](/workflows/Build/badge.svg)](/actions/workflows/build.yml) -->
 
 **IntelliJ Darcula Theme clone tweaked by Stellars**
 
@@ -10,7 +10,7 @@ This theme has simple, clean colours and minimal intruision into the standard ju
 This project is based on the original [Darcula theme](https://github.com/telamonian/theme-darcula) ported
 to the latest [jupyterlab extension template](https://github.com/jupyterlab/extension-template) with copier
 
-![](screenshot-stellars-darcula.png)
+![](https://github.com/stellarshenson/jupyterlab_stellars_darcula_theme/blob/master/screenshot-stellars-darcula.png?raw=true)
 
 ## Requirements
 
