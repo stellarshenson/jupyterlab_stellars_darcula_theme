@@ -1,6 +1,6 @@
 {
     "name": "@stellars/jupyterlab_darcula_theme",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "IntelliJ Darcula Theme tweaked by Stellars",
     "keywords": [
         "jupyter",
