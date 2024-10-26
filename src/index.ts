@@ -10,7 +10,7 @@ import { IThemeManager } from '@jupyterlab/apputils';
  */
 const plugin: JupyterFrontEndPlugin<void> = {
   id: '@stellars/jupyterlab_darcula_theme:plugin',
-  description: 'IntelliJ Darcula Theme tweaked by Stellars',
+  description: 'IntelliJ Darcula Theme tweaked by Stellars, based on original Darcula theme',
   autoStart: true,
   requires: [IThemeManager],
   activate: (app: JupyterFrontEnd, manager: IThemeManager) => {
@@ -18,7 +18,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
     const style = '@stellars/jupyterlab_darcula_theme/index.css';
 
     manager.register({
-      name: 'Stellars Darcula Theme',
+      name: 'Stellars Darcula',
       themeScrollbars: true,
       isLight: false,
       load: () => manager.loadCSS(style),

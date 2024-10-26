@@ -1,8 +1,16 @@
-# stellars_jupyterlab_darcula_theme
+# Stellars Jupyterlab Darcula Theme
 
 [![Github Actions Status](/workflows/Build/badge.svg)](/actions/workflows/build.yml)
 
-IntelliJ Darcula Theme tweaked by Stellars
+**IntelliJ Darcula Theme clone tweaked by Stellars**
+
+Yet another Darcula theme clone for jupyterlab, just modernised and tweaked for readability.
+This theme has simple, clean colours and minimal intruision into the standard jupyterlab styling.
+
+This project is based on the original [Darcula theme](https://github.com/telamonian/theme-darcula) ported
+to the latest [jupyterlab extension template](https://github.com/jupyterlab/extension-template) with copier
+
+![](screenshot-stellars-darcula.png)
 
 ## Requirements
 
@@ -29,6 +37,22 @@ pip uninstall stellars_jupyterlab_darcula_theme
 ### Development install
 
 Note: You will need NodeJS to build the extension package.
+
+#### Dependencies
+- install nodejs with conda: `conda install nodejs`
+- install jupyterlab: `conda install jupyterlab`
+- install maketools: `conda install make`
+- install build and setuptools: `pip install build setuptools`
+
+#### Build
+
+- invoke `make` to build the `.whl` package
+- invoke `make clean` to run cleanup & uninstall
+- invoke `make install` to build and install extension 
+- invoke `make uninstall` to uninstall extension
+
+
+#### Development
 
 The `jlpm` command is JupyterLab's pinned version of
 [yarn](https://yarnpkg.com/) that is installed with JupyterLab. You may use
