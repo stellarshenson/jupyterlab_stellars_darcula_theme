@@ -335,6 +335,8 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-toolbar-header-margin: 4px 4px 0px 4px;
   --jp-toolbar-active-background: var(--jp-layout-color0);
 
+  --jp-accept-color-hover: var(--jp-brand-color0); /* added as of JL4.3, hover color for + button */
+
   /* Statusbar specific styles */
 
   --jp-statusbar-height: 24px;
