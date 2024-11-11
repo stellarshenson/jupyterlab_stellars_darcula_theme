@@ -411,14 +411,14 @@ all of MD as it is not optimized for dense, information rich UIs.
   /* Code mirror specific styles */
   --jp-mirror-editor-keyword-color: #cc7832;
   --jp-mirror-editor-atom-color: #cc7832;
-  --jp-mirror-editor-number-color: #6897bb;
+  --jp-mirror-editor-number-color: #d65950; /* changed from #6897bb */
   --jp-mirror-editor-def-color: #ffc66d;
   --jp-mirror-editor-variable-color: #a9b7c6;
   --jp-mirror-editor-variable-2-color: #94558d;
   --jp-mirror-editor-variable-3-color: #9876aa;
   --jp-mirror-editor-punctuation-color: #ff9e59;
-  --jp-mirror-editor-property-color: #a9b7c6;
-  --jp-mirror-editor-operator-color: #a9b7c6;
+  --jp-mirror-editor-property-color: #96bde6; /* changed from #a9b7c6 */
+  --jp-mirror-editor-operator-color: #96bde6; /* changed from #a9b7c6 */
   --jp-mirror-editor-comment-color: #808080;
   --jp-mirror-editor-string-color: #6a8759;
   --jp-mirror-editor-string-2-color: #6a8759;
