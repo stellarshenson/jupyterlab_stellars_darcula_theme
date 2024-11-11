@@ -1,5 +1,5 @@
-all:
-	python -m build --wheel
+all: clean
+	python -m build 
 
 install: all
 	pip install dist/*.whl --force-reinstall
@@ -10,10 +10,9 @@ clean: uninstall
 	rm -rf dist lib 
 
 uninstall:
-	pip uninstall -y dist/*.whl || true
+	pip uninstall -y dist/*.whl 2>/dev/null || true
 
-publish: clean
-	python -m build
+publish: install
 	twine upload dist/*
 
 dependencies:
