@@ -80,3 +80,9 @@ fix: annoying problem of almost invisible text in stderr */
     color: #9C9E9E !important;
 }
 */
+
+/* override - settings restore button */
+.jp-SettingsHeader-buttonbar > .jp-RestoreButton {
+    color: var(--jp-content-link-color);
+}
+
