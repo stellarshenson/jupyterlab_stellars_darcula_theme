@@ -39,6 +39,7 @@ pip uninstall stellars_jupyterlab_darcula_theme
 Note: You will need NodeJS to build the extension package.
 
 #### Dependencies
+
 - install nodejs with conda: `conda install nodejs`
 - install jupyterlab: `conda install jupyterlab`
 - install maketools: `conda install make`
@@ -48,9 +49,8 @@ Note: You will need NodeJS to build the extension package.
 
 - invoke `make` to build the `.whl` package
 - invoke `make clean` to run cleanup & uninstall
-- invoke `make install` to build and install extension 
+- invoke `make install` to build and install extension
 - invoke `make uninstall` to uninstall extension
-
 
 #### Development
 
