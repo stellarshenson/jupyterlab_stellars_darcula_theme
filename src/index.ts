@@ -6,19 +6,19 @@ import {
 import { IThemeManager } from '@jupyterlab/apputils';
 
 /**
- * Initialization data for the stellars-jupyterlab-darcula-theme extension.
+ * Initialization data for the @stellars/jupyterlab_darcula_theme extension.
  */
 const plugin: JupyterFrontEndPlugin<void> = {
-  id: 'stellars-jupyterlab-darcula-theme:plugin',
+  id: '@stellars/jupyterlab_darcula_theme:plugin',
   description:
     'IntelliJ Darcula Theme tweaked by Stellars, based on original Darcula theme',
   autoStart: true,
   requires: [IThemeManager],
   activate: (app: JupyterFrontEnd, manager: IThemeManager) => {
     console.log(
-      'JupyterLab extension stellars-jupyterlab-darcula-theme is activated!'
+      'JupyterLab extension @stellars/jupyterlab_darcula_theme is activated!'
     );
-    const style = 'stellars-jupyterlab-darcula-theme/index.css';
+    const style = '@stellars/jupyterlab_darcula_theme/index.css';
 
     manager.register({
       name: 'Stellars Darcula',
