@@ -12,3 +12,6 @@ This journal tracks substantive work on documents, diagrams, and documentation c
 
 3. **Task - Add PyPI Downloads Badge**: Added PyPI downloads badge to README and published new version<br>
     **Result**: Added PyPI downloads badge to README.md using shields.io format (https://img.shields.io/pypi/dm/stellars-jupyterlab-darcula-theme). Executed make publish successfully - built and published version 1.0.28 to both npm (https://www.npmjs.com/package/@stellarshenson/jupyterlab_darcula_theme/v/1.0.28) and PyPI (https://pypi.org/project/stellars-jupyterlab-darcula-theme/1.0.28/).
+
+4. **Task - Revert to Unscoped Package Name**: Changed npm package to unscoped name due to installation issues<br>
+    **Result**: Updated package.json from @stellarshenson/jupyterlab_darcula_theme to stellars-jupyterlab-darcula-theme (matching PyPI naming convention). Updated src/index.ts plugin id, console log, and style path to use unscoped name. Clean reinstall with yarn, rebuilt and published version 1.0.29 to npm (https://www.npmjs.com/package/stellars-jupyterlab-darcula-theme) and PyPI (https://pypi.org/project/stellars-jupyterlab-darcula-theme/1.0.29/). Updated README.md npm badge to reflect unscoped package name.
