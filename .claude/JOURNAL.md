@@ -9,3 +9,6 @@ This journal tracks substantive work on documents, diagrams, and documentation c
 
 2. **Task - Project Configuration Setup**: Established project-specific Claude configuration<br>
     **Result**: Copied CLAUDE.md from workspace to project .claude/ directory. Created local JOURNAL.md in project tracking darcula theme work (entry #1). Removed darcula theme entry #15 from workspace journal to restore proper project boundary separation. Committed .claude/CLAUDE.md and .claude/JOURNAL.md with message "chore: add project-specific claude configuration".
+
+3. **Task - Add PyPI Downloads Badge**: Added PyPI downloads badge to README and published new version<br>
+    **Result**: Added PyPI downloads badge to README.md using shields.io format (https://img.shields.io/pypi/dm/stellars-jupyterlab-darcula-theme). Executed make publish successfully - built and published version 1.0.28 to both npm (https://www.npmjs.com/package/@stellarshenson/jupyterlab_darcula_theme/v/1.0.28) and PyPI (https://pypi.org/project/stellars-jupyterlab-darcula-theme/1.0.28/).
