@@ -1,7 +1,7 @@
 # Stellars Jupyterlab Darcula Theme
 
 ![GitHub Actions](https://github.com/stellarshenson/jupyterlab_stellars_darcula_theme/actions/workflows/build.yml/badge.svg)
-[![npm version](https://badge.fury.io/js/@stellars%2Fjupyterlab_darcula_theme.svg)](https://www.npmjs.com/package/@stellars/jupyterlab_darcula_theme)
+[![npm version](https://badge.fury.io/js/stellars_jupyterlab_darcula_theme.svg)](https://www.npmjs.com/package/stellars_jupyterlab_darcula_theme)
 [![PyPI version](https://badge.fury.io/py/stellars-jupyterlab-darcula-theme.svg)](https://pypi.org/project/stellars-jupyterlab-darcula-theme/)
 ![PyPI downloads](https://img.shields.io/pypi/dm/stellars-jupyterlab-darcula-theme?label=PyPI%20downloads)
 
@@ -97,7 +97,7 @@ pip uninstall stellars_jupyterlab_darcula_theme
 
 In development mode, you will also need to remove the symlink created by `jupyter labextension develop`
 command. To find its location, you can run `jupyter labextension list` to figure out where the `labextensions`
-folder is located. Then you can remove the symlink named `@stellars/jupyterlab_darcula_theme` within that folder.
+folder is located. Then you can remove the symlink named `stellars_jupyterlab_darcula_theme` within that folder.
 
 ### Packaging the extension
 

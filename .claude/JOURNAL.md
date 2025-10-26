@@ -21,3 +21,6 @@ This journal tracks substantive work on documents, diagrams, and documentation c
 
 6. **Task - Stable Release Preparation**: Marked version 1.0.35 as stable release<br>
     **Result**: Executed make mrproper to thoroughly clean project (removed node_modules, .yarn, dist, lib, and uninstalled package). Version 1.0.35 confirmed as stable with working theme registration and PyPI publication. Tagged as stable release.
+
+7. **Task - Align npm Package Naming**: Corrected npm package name to match Python package naming convention<br>
+    **Result**: Changed npm package from jupyterlab_stellars_darcula_theme to stellars_jupyterlab_darcula_theme to align with Python package stellars_jupyterlab_darcula_theme. Updated package.json (name field), package-lock.json (two instances), src/index.ts (plugin id, console log, and CSS path from jupyterlab_stellars_darcula_theme to stellars_jupyterlab_darcula_theme), README.md (npm badge URL and symlink reference), and pyproject.toml (labextension installation paths). Changed theme display name from "Stellars Darcula" to "Stellars Darcula Dark Theme" in src/index.ts. Built version 1.0.40 successfully. Attempted npm publish but requires email verification at npmjs.com before new package can be published. Executed make mrproper cleanup.
