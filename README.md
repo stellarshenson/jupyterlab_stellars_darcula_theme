@@ -1,7 +1,8 @@
 # Stellars Jupyterlab Darcula Theme
 
-<!-- [![Github Actions Status](/workflows/Build/badge.svg)](/actions/workflows/build.yml) -->
-[![PyPI version](https://badge.fury.io/py/stellars-jupyterlab-darcula-theme.svg)](https://badge.fury.io/py/stellars-jupyterlab-darcula-theme)
+![GitHub Actions](https://github.com/stellarshenson/jupyterlab_stellars_darcula_theme/actions/workflows/build.yml/badge.svg)
+[![npm version](https://badge.fury.io/js/@stellarshenson%2Fjupyterlab_darcula_theme.svg)](https://www.npmjs.com/package/@stellarshenson/jupyterlab_darcula_theme)
+[![PyPI version](https://badge.fury.io/py/stellars-jupyterlab-darcula-theme.svg)](https://pypi.org/project/stellars-jupyterlab-darcula-theme/)
 
 **IntelliJ Darcula Theme clone tweaked by Stellars**
 
