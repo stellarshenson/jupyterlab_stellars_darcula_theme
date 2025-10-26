@@ -18,3 +18,6 @@ This journal tracks substantive work on documents, diagrams, and documentation c
 
 5. **Task - Fix Theme Registration**: Reverted to @stellars scope to fix theme not appearing in JupyterLab settings<br>
     **Result**: Identified breaking change - package name mismatch between package.json (jupyterlab-stellars-darcula-theme) and src/index.ts style path (stellars-jupyterlab-darcula-theme with word order flipped). Theme couldn't be found due to CSS path mismatch. Reverted package.json to @stellars/jupyterlab_darcula_theme. Updated src/index.ts plugin id, console log, and style path to match @stellars/jupyterlab_darcula_theme. Updated README.md npm badge. Rebuilt and published version 1.0.35 to PyPI only (https://pypi.org/project/stellars-jupyterlab-darcula-theme/1.0.35/). npm publish disabled in Makefile (404 error - @stellars scope doesn't exist on npm). Theme now properly registers and appears in JupyterLab Settings > Theme selector.
+
+6. **Task - Stable Release Preparation**: Marked version 1.0.35 as stable release<br>
+    **Result**: Executed make mrproper to thoroughly clean project (removed node_modules, .yarn, dist, lib, and uninstalled package). Version 1.0.35 confirmed as stable with working theme registration and PyPI publication. Tagged as stable release.
