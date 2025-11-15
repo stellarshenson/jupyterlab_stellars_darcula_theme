@@ -5,6 +5,7 @@
 [![PyPI version](https://badge.fury.io/py/stellars-jupyterlab-darcula-theme.svg)](https://pypi.org/project/stellars-jupyterlab-darcula-theme/)
 [![Total PyPI downloads](https://static.pepy.tech/badge/stellars-jupyterlab-darcula-theme)](https://pepy.tech/project/stellars-jupyterlab-darcula-theme)
 ![JL4 Ready](https://img.shields.io/badge/Jupyterlab%204-ready-blue)
+[![Donate PayPal](https://img.shields.io/badge/Donate-PayPal-blue?style=flat)](https://www.paypal.com/donate/?hosted_button_id=B4KPBJDLLXTSA)
 
 **IntelliJ Darcula Theme clone tweaked by Stellars**
 
