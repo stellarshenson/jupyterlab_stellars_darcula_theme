@@ -1,10 +1,11 @@
 # Stellars Jupyterlab Darcula Theme
 
-![GitHub Actions](https://github.com/stellarshenson/jupyterlab_stellars_darcula_theme/actions/workflows/build.yml/badge.svg)
-[![npm version](https://badge.fury.io/js/stellars_jupyterlab_darcula_theme.svg)](https://www.npmjs.com/package/stellars_jupyterlab_darcula_theme)
-[![PyPI version](https://badge.fury.io/py/stellars-jupyterlab-darcula-theme.svg)](https://pypi.org/project/stellars-jupyterlab-darcula-theme/)
+[![GitHub Actions](https://github.com/stellarshenson/jupyterlab_stellars_darcula_theme/actions/workflows/build.yml/badge.svg)](https://github.com/stellarshenson/jupyterlab_stellars_darcula_theme/actions/workflows/build.yml)
+[![npm version](https://img.shields.io/npm/v/stellars_jupyterlab_darcula_theme.svg)](https://www.npmjs.com/package/stellars_jupyterlab_darcula_theme)
+[![PyPI version](https://img.shields.io/pypi/v/stellars-jupyterlab-darcula-theme.svg)](https://pypi.org/project/stellars-jupyterlab-darcula-theme/)
 [![Total PyPI downloads](https://static.pepy.tech/badge/stellars-jupyterlab-darcula-theme)](https://pepy.tech/project/stellars-jupyterlab-darcula-theme)
-![JL4 Ready](https://img.shields.io/badge/Jupyterlab%204-ready-blue)
+[![JupyterLab 4](https://img.shields.io/badge/JupyterLab-4-orange.svg)](https://jupyterlab.readthedocs.io/en/stable/)
+[![Brought To You By KOLOMOLO](https://img.shields.io/badge/Brought%20To%20You%20By-KOLOMOLO-00ffff?style=flat)](https://kolomolo.com)
 [![Donate PayPal](https://img.shields.io/badge/Donate-PayPal-blue?style=flat)](https://www.paypal.com/donate/?hosted_button_id=B4KPBJDLLXTSA)
 
 **IntelliJ Darcula Theme clone tweaked by Stellars**
