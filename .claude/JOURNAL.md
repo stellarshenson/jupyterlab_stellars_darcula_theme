@@ -27,3 +27,6 @@ This journal tracks substantive work on documents, diagrams, and documentation c
 
 8. **Task - jupyter-releaser Workflow Configuration**: Updated CI/CD workflows per workspace JUPYTERLAB_EXTENSION.md guidelines<br>
     **Result**: Modified check-release.yml and prep-release.yml to support direct commit workflow without PRs. Added `steps_to_skip: "build-changelog"` parameter to skip changelog generation from PRs (not used in this project). Added `RH_SINCE_LAST_STABLE: 'true'` environment variable to ensure jupyter-releaser only considers semantic version tags, preventing custom milestone tags from breaking changelog generation.
+
+9. **Task - Markdown Table Alignment Fix**: Added CSS override for left-aligned markdown tables<br>
+    **Result**: Added `.jp-RenderedHTMLCommon table { margin-left: inherit; }` rule to style/custom.css. Overrides default JupyterLab table centering behavior to align rendered markdown tables to the left margin.
